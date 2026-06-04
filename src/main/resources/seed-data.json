@@ -1,0 +1,5502 @@
+{
+  "regions": [
+    {
+      "code": "ABR",
+      "name": "Abruzzo",
+      "description": "Montagna e mare, pastorizia e peperoncino"
+    },
+    {
+      "code": "BAS",
+      "name": "Basilicata",
+      "description": "Cucina lucana, povera e piccante"
+    },
+    {
+      "code": "CAL",
+      "name": "Calabria",
+      "description": "Peperoncino, 'nduja e sapori decisi"
+    },
+    {
+      "code": "CAM",
+      "name": "Campania",
+      "description": "Tradizione napoletana e costiera"
+    },
+    {
+      "code": "EMR",
+      "name": "Emilia-Romagna",
+      "description": "Pasta all'uovo, salumi e Parmigiano"
+    },
+    {
+      "code": "FVG",
+      "name": "Friuli-Venezia Giulia",
+      "description": "Incontro tra Italia e Mitteleuropa"
+    },
+    {
+      "code": "LAZ",
+      "name": "Lazio",
+      "description": "Cucina romana classica"
+    },
+    {
+      "code": "LIG",
+      "name": "Liguria",
+      "description": "Pesto, erbe e sapori di mare"
+    },
+    {
+      "code": "LOM",
+      "name": "Lombardia",
+      "description": "Risotti, burro e piatti ricchi"
+    },
+    {
+      "code": "MAR",
+      "name": "Marche",
+      "description": "Tra Appennino e Adriatico"
+    },
+    {
+      "code": "MOL",
+      "name": "Molise",
+      "description": "Piccola regione, sapori contadini"
+    },
+    {
+      "code": "PIE",
+      "name": "Piemonte",
+      "description": "Tartufo, vini e cucina di terra"
+    },
+    {
+      "code": "PUG",
+      "name": "Puglia",
+      "description": "Cucina del Sud, materie prime povere"
+    },
+    {
+      "code": "SAR",
+      "name": "Sardegna",
+      "description": "Pane, pecora e tradizione pastorale"
+    },
+    {
+      "code": "SIC",
+      "name": "Sicilia",
+      "description": "Agrodolce, pesce e dolci di origine araba"
+    },
+    {
+      "code": "TOS",
+      "name": "Toscana",
+      "description": "Pane, legumi e carne alla brace"
+    },
+    {
+      "code": "TAA",
+      "name": "Trentino-Alto Adige",
+      "description": "Cucina alpina e altoatesina"
+    },
+    {
+      "code": "UMB",
+      "name": "Umbria",
+      "description": "Cuore verde, tartufo e norcineria"
+    },
+    {
+      "code": "VDA",
+      "name": "Valle d'Aosta",
+      "description": "Montagna, fontina e burro"
+    },
+    {
+      "code": "VEN",
+      "name": "Veneto",
+      "description": "Risi, baccala e polenta"
+    }
+  ],
+  "pantryDefaults": [
+    "Sale",
+    "Pepe nero",
+    "Olio extravergine di oliva",
+    "Acqua",
+    "Aceto"
+  ],
+  "aliases": [
+    {
+      "alias": "pomodorini",
+      "ingredient": "Pomodorini"
+    },
+    {
+      "alias": "ciliegini",
+      "ingredient": "Pomodorini"
+    },
+    {
+      "alias": "pomodori ciliegia",
+      "ingredient": "Pomodorini"
+    },
+    {
+      "alias": "pomodori pelati",
+      "ingredient": "Pomodori pelati"
+    },
+    {
+      "alias": "pelati",
+      "ingredient": "Pomodori pelati"
+    },
+    {
+      "alias": "passata",
+      "ingredient": "Passata di pomodoro"
+    },
+    {
+      "alias": "san marzano",
+      "ingredient": "Pomodori San Marzano"
+    },
+    {
+      "alias": "mozzarella fiordilatte",
+      "ingredient": "Mozzarella"
+    },
+    {
+      "alias": "fior di latte",
+      "ingredient": "Mozzarella"
+    },
+    {
+      "alias": "parmigiano",
+      "ingredient": "Parmigiano Reggiano"
+    },
+    {
+      "alias": "parmigiano reggiano",
+      "ingredient": "Parmigiano Reggiano"
+    },
+    {
+      "alias": "grana",
+      "ingredient": "Grana Padano"
+    },
+    {
+      "alias": "olio",
+      "ingredient": "Olio extravergine di oliva"
+    },
+    {
+      "alias": "olio evo",
+      "ingredient": "Olio extravergine di oliva"
+    },
+    {
+      "alias": "evo",
+      "ingredient": "Olio extravergine di oliva"
+    },
+    {
+      "alias": "uovo",
+      "ingredient": "Uova"
+    },
+    {
+      "alias": "cipolle",
+      "ingredient": "Cipolla"
+    },
+    {
+      "alias": "patate lesse",
+      "ingredient": "Patate"
+    },
+    {
+      "alias": "carote",
+      "ingredient": "Carota"
+    },
+    {
+      "alias": "vino",
+      "ingredient": "Vino bianco"
+    }
+  ],
+  "substitutions": [
+    {
+      "a": "Spaghetti",
+      "b": "Pasta corta",
+      "score": 0.8,
+      "note": "formato diverso, stessa pasta di semola"
+    },
+    {
+      "a": "Spaghetti",
+      "b": "Tagliatelle",
+      "score": 0.75,
+      "note": "le tagliatelle sono all'uovo, piu' ricche"
+    },
+    {
+      "a": "Pasta corta",
+      "b": "Tagliatelle",
+      "score": 0.7,
+      "note": "formato e impasto diversi"
+    },
+    {
+      "a": "Trofie",
+      "b": "Pasta corta",
+      "score": 0.85,
+      "note": "stesso uso, formato ligure"
+    },
+    {
+      "a": "Orecchiette",
+      "b": "Pasta corta",
+      "score": 0.8,
+      "note": "formati corti interscambiabili"
+    },
+    {
+      "a": "Parmigiano Reggiano",
+      "b": "Grana Padano",
+      "score": 0.9,
+      "note": "molto simili, il Grana piu' delicato"
+    },
+    {
+      "a": "Pecorino romano",
+      "b": "Pecorino",
+      "score": 0.9,
+      "note": "stessa famiglia, sapidita' simile"
+    },
+    {
+      "a": "Pecorino romano",
+      "b": "Parmigiano Reggiano",
+      "score": 0.7,
+      "note": "meno sapido e meno salato"
+    },
+    {
+      "a": "Pecorino",
+      "b": "Parmigiano Reggiano",
+      "score": 0.75,
+      "note": "il pecorino e' piu' saporito"
+    },
+    {
+      "a": "Grana Padano",
+      "b": "Pecorino",
+      "score": 0.7,
+      "note": "uno dolce uno sapido"
+    },
+    {
+      "a": "Caciocavallo",
+      "b": "Pecorino",
+      "score": 0.6,
+      "note": "entrambi stagionati e saporiti"
+    },
+    {
+      "a": "Mozzarella",
+      "b": "Mozzarella di bufala",
+      "score": 0.85,
+      "note": "la bufala e' piu' saporita e cremosa"
+    },
+    {
+      "a": "Fontina",
+      "b": "Montasio",
+      "score": 0.8,
+      "note": "formaggi alpini da fusione"
+    },
+    {
+      "a": "Fontina",
+      "b": "Mozzarella",
+      "score": 0.55,
+      "note": "per far filare"
+    },
+    {
+      "a": "Ricotta",
+      "b": "Ricotta salata",
+      "score": 0.5,
+      "note": "una fresca, una salata e stagionata"
+    },
+    {
+      "a": "Mascarpone",
+      "b": "Ricotta",
+      "score": 0.6,
+      "note": "la ricotta e' meno grassa"
+    },
+    {
+      "a": "Mascarpone",
+      "b": "Panna",
+      "score": 0.6,
+      "note": "entrambi cremosi e grassi"
+    },
+    {
+      "a": "Guanciale",
+      "b": "Pancetta",
+      "score": 0.75,
+      "note": "sapore meno intenso, comune sostituzione"
+    },
+    {
+      "a": "Pancetta",
+      "b": "Speck",
+      "score": 0.7,
+      "note": "lo speck e' affumicato"
+    },
+    {
+      "a": "Guanciale",
+      "b": "Speck",
+      "score": 0.65,
+      "note": "diverso ma entrambi grassi e saporiti"
+    },
+    {
+      "a": "Prosciutto crudo",
+      "b": "Speck",
+      "score": 0.7,
+      "note": "lo speck e' affumicato"
+    },
+    {
+      "a": "Mortadella",
+      "b": "Prosciutto crudo",
+      "score": 0.5,
+      "note": "salumi di maiale, gusto diverso"
+    },
+    {
+      "a": "Salsiccia",
+      "b": "Maiale",
+      "score": 0.7,
+      "note": "la salsiccia e' maiale gia' insaporito"
+    },
+    {
+      "a": "Manzo",
+      "b": "Vitello",
+      "score": 0.85,
+      "note": "tagli bovini simili"
+    },
+    {
+      "a": "Vitello",
+      "b": "Maiale",
+      "score": 0.6,
+      "note": "carni bianche/rosa, gusto diverso"
+    },
+    {
+      "a": "Manzo",
+      "b": "Maiale",
+      "score": 0.6,
+      "note": "carni rosse interscambiabili in umido"
+    },
+    {
+      "a": "Pollo",
+      "b": "Vitello",
+      "score": 0.5,
+      "note": "carni magre"
+    },
+    {
+      "a": "Pomodori pelati",
+      "b": "Passata di pomodoro",
+      "score": 0.85,
+      "note": "consistenza diversa, sapore simile"
+    },
+    {
+      "a": "Pomodori pelati",
+      "b": "Pomodorini",
+      "score": 0.7,
+      "note": "i pelati sono piu' acquosi"
+    },
+    {
+      "a": "Passata di pomodoro",
+      "b": "Concentrato di pomodoro",
+      "score": 0.6,
+      "note": "il concentrato va diluito"
+    },
+    {
+      "a": "Cipolla",
+      "b": "Cipolla rossa",
+      "score": 0.85,
+      "note": "la rossa e' piu' dolce"
+    },
+    {
+      "a": "Vongole",
+      "b": "Cozze",
+      "score": 0.8,
+      "note": "molluschi interscambiabili"
+    },
+    {
+      "a": "Baccala",
+      "b": "Coda di rospo",
+      "score": 0.5,
+      "note": "pesce bianco sodo"
+    },
+    {
+      "a": "Farina 00",
+      "b": "Semola rimacinata di grano duro",
+      "score": 0.7,
+      "note": "la semola e' piu' granulosa"
+    },
+    {
+      "a": "Burro",
+      "b": "Olio extravergine di oliva",
+      "score": 0.6,
+      "note": "cambia il gusto ma funziona"
+    },
+    {
+      "a": "Burro",
+      "b": "Strutto",
+      "score": 0.7,
+      "note": "grassi tradizionali da cucina"
+    },
+    {
+      "a": "Strutto",
+      "b": "Olio extravergine di oliva",
+      "score": 0.6,
+      "note": "grassi per soffritto/impasti"
+    },
+    {
+      "a": "Panna",
+      "b": "Latte",
+      "score": 0.6,
+      "note": "risultato meno cremoso"
+    },
+    {
+      "a": "Vino bianco",
+      "b": "Vino rosso",
+      "score": 0.5,
+      "note": "cambia colore e gusto del piatto"
+    },
+    {
+      "a": "Spinaci",
+      "b": "Bietola",
+      "score": 0.85,
+      "note": "verdure a foglia molto simili"
+    },
+    {
+      "a": "Bietola",
+      "b": "Cavolo nero",
+      "score": 0.7,
+      "note": "verdure da cuocere"
+    },
+    {
+      "a": "Spinaci",
+      "b": "Cavolo nero",
+      "score": 0.65,
+      "note": "foglie verdi da saltare"
+    },
+    {
+      "a": "Verza",
+      "b": "Cavolo nero",
+      "score": 0.7,
+      "note": "cavoli a foglia"
+    },
+    {
+      "a": "Cime di rapa",
+      "b": "Bietola",
+      "score": 0.6,
+      "note": "verdura amara vs dolce"
+    },
+    {
+      "a": "Noci",
+      "b": "Pinoli",
+      "score": 0.6,
+      "note": "frutta secca per salse e pesto"
+    },
+    {
+      "a": "Mandorle",
+      "b": "Noci",
+      "score": 0.55,
+      "note": "frutta secca, resa diversa"
+    },
+    {
+      "a": "Pinoli",
+      "b": "Mandorle",
+      "score": 0.6,
+      "note": "per pesto e dolci"
+    },
+    {
+      "a": "Basilico",
+      "b": "Prezzemolo",
+      "score": 0.5,
+      "note": "erbe fresche, aroma diverso"
+    },
+    {
+      "a": "Salvia",
+      "b": "Rosmarino",
+      "score": 0.5,
+      "note": "erbe aromatiche da arrosto"
+    },
+    {
+      "a": "Origano",
+      "b": "Basilico",
+      "score": 0.5,
+      "note": "aromi mediterranei"
+    },
+    {
+      "a": "Fagioli cannellini",
+      "b": "Lenticchie",
+      "score": 0.7,
+      "note": "legumi da zuppa"
+    },
+    {
+      "a": "Cioccolato fondente",
+      "b": "Cacao amaro",
+      "score": 0.6,
+      "note": "il cacao e' in polvere, regola lo zucchero"
+    },
+    {
+      "a": "Gocce di cioccolato",
+      "b": "Cioccolato fondente",
+      "score": 0.9,
+      "note": "tritare la tavoletta"
+    },
+    {
+      "a": "Zucchero",
+      "b": "Miele",
+      "score": 0.7,
+      "note": "il miele e' liquido e piu' aromatico"
+    },
+    {
+      "a": "Rum",
+      "b": "Vin Santo",
+      "score": 0.4,
+      "note": "liquori per bagnare i dolci"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Arrosticini abruzzesi",
+      "description": "Spiedini di carne di pecora tagliata a piccoli cubetti, cotti sulla brace della tipica fornacella e conditi solo con sale.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 10,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "ABR",
+      "ingredients": [
+        {
+          "name": "Pecora",
+          "category": "MEAT",
+          "quantity": 800,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "polpa e parte grassa, a cubetti"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "per ungere la brace"
+        },
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "per la bruschetta di accompagnamento"
+        }
+      ],
+      "steps": [
+        "Taglia la carne di pecora in cubetti regolari di circa 1 cm, alternando parti magre e grasse.",
+        "Infila i cubetti sugli spiedini di legno, compattandoli bene.",
+        "Accendi la brace nella fornacella e attendi che si formi una cenere uniforme senza fiamma.",
+        "Cuoci gli arrosticini girandoli spesso per pochi minuti per lato, fino a doratura.",
+        "Sala solo a fine cottura e servi caldissimi, accompagnati da bruschetta di pane raffermo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Campo_Imperatore_2009_-Ristoro_Mucciante_Arrosticini-_by_RaBoe_014.jpg"
+    },
+    {
+      "title": "Maccheroni alla chitarra con le pallottine",
+      "description": "Pasta fresca all'uovo tagliata con il tipico telaio detto chitarra, condita con un sugo di pomodoro e piccolissime polpettine di carne.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 60,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "ABR",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato per le pallottine"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 700,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "per il soffritto"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la semola e la farina con le uova fino a ottenere un panetto liscio, poi lascia riposare 30 minuti.",
+        "Stendi la sfoglia, appoggiala sulla chitarra e premi con il mattarello per ricavare i maccheroni.",
+        "Impasta il macinato con un po' di pecorino e sale e forma tante pallottine piccole come nocciole.",
+        "Soffriggi la cipolla nell'olio, rosola le pallottine, unisci la passata e cuoci il sugo a fuoco basso per circa 40 minuti.",
+        "Lessa i maccheroni in acqua salata, scolali al dente e condiscili con il sugo e le pallottine.",
+        "Completa con abbondante pecorino grattugiato e servi."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Spaghetti_chitarra.png/960px-Spaghetti_chitarra.png"
+    },
+    {
+      "title": "Parrozzo abruzzese",
+      "description": "Dolce a cupola a base di mandorle e semolino, ricoperto di cioccolato fondente, tipico delle feste pescaresi.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 40,
+      "servings": 8,
+      "type": "TRADITIONAL",
+      "regionCode": "ABR",
+      "ingredients": [
+        {
+          "name": "Mandorle",
+          "category": "PRODUCE",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "pelate e tritate"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 6,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 180,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fuso"
+        },
+        {
+          "name": "Cioccolato fondente",
+          "category": "OTHER",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per la copertura"
+        },
+        {
+          "name": "Limone",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "scorza grattugiata"
+        }
+      ],
+      "steps": [
+        "Monta i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso.",
+        "Unisci le mandorle tritate, la semola, la farina, il burro fuso e la scorza di limone.",
+        "Incorpora delicatamente gli albumi montati a neve mescolando dal basso verso l'alto.",
+        "Versa l'impasto in uno stampo semisferico e cuoci in forno a 170 gradi per circa 40 minuti.",
+        "Sforna, fai raffreddare e capovolgi il dolce a cupola su una griglia.",
+        "Sciogli il cioccolato fondente a bagnomaria e ricopri tutta la superficie del parrozzo.",
+        "Lascia rapprendere il cioccolato prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Parrozzo_01.JPG/960px-Parrozzo_01.JPG"
+    },
+    {
+      "title": "Peperoni cruschi di Senise",
+      "description": "I peperoni dolci di Senise essiccati e fritti pochi secondi in olio caldo fino a diventare croccanti, simbolo assoluto della Basilicata.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 5,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "BAS",
+      "ingredients": [
+        {
+          "name": "Peperone crusco di Senise",
+          "category": "PRODUCE",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "essiccato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 300,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Pulisci i peperoni cruschi eliminando il picciolo e i semi interni.",
+        "Scalda abbondante olio extravergine in una padella fino a circa 160 gradi.",
+        "Immergi i peperoni pochi secondi, girandoli, finche' diventano croccanti senza bruciare.",
+        "Scolali subito su carta assorbente e sala leggermente.",
+        "Servi immediatamente come antipasto o sbriciolati su altri piatti."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pasta_peperoni_cruschi.jpg/960px-Pasta_peperoni_cruschi.jpg"
+    },
+    {
+      "title": "Strascinati con la mollica",
+      "description": "Pasta fresca lucana saltata con mollica di pane raffermo tostata, peperone crusco e olio, un primo povero e profumato della tradizione contadina.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "BAS",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sbriciolato"
+        },
+        {
+          "name": "Peperone crusco di Senise",
+          "category": "PRODUCE",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "essiccato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 6,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "spicchio"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta semola e acqua tiepida fino a ottenere un panetto liscio e lascia riposare 30 minuti.",
+        "Forma piccoli gnocchetti e trascinali sul tagliere con il pollice per dare la forma agli strascinati.",
+        "Soffriggi l'aglio nell'olio, friggi brevemente i peperoni cruschi e sbriciolali.",
+        "Tosta la mollica di pane raffermo nello stesso olio fino a doratura.",
+        "Lessa la pasta in acqua salata e scolala al dente.",
+        "Salta gli strascinati con mollica e crusco, completa con pecorino e servi."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pasta_peperoni_cruschi.jpg/960px-Pasta_peperoni_cruschi.jpg"
+    },
+    {
+      "title": "Baccala alla lucana",
+      "description": "Baccala in umido cotto con peperoni cruschi, patate e pomodoro, secondo piatto tipico delle feste della Basilicata.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 40,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "BAS",
+      "ingredients": [
+        {
+          "name": "Baccala",
+          "category": "FISH",
+          "quantity": 700,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "ammollato"
+        },
+        {
+          "name": "Peperone crusco di Senise",
+          "category": "PRODUCE",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "essiccato"
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a tocchetti"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 250,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 5,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "spicchio"
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Taglia il baccala ammollato a pezzi e infarinalo leggermente.",
+        "Soffriggi cipolla e aglio nell'olio, poi aggiungi le patate a tocchetti.",
+        "Unisci la passata di pomodoro e un mestolo d'acqua, lascia sobbollire 15 minuti.",
+        "Adagia i pezzi di baccala nel sugo e cuoci a fuoco lento per altri 20 minuti.",
+        "Friggi a parte i peperoni cruschi pochi secondi e adagiali sul baccala.",
+        "Completa con prezzemolo, aggiusta di sale e servi caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Baccal%C3%A0_delle_Isole_Faroe.JPG/960px-Baccal%C3%A0_delle_Isole_Faroe.JPG"
+    },
+    {
+      "title": "Fileja alla 'Nduja",
+      "description": "Pasta fresca calabrese arrotolata a mano condita con un sugo piccante a base di 'nduja di Spilinga, il salume spalmabile simbolo della Calabria.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 25,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "CAL",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 160,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Nduja",
+          "category": "MEAT",
+          "quantity": 120,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di Spilinga"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla rossa",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "di Tropea, tritata"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la semola con l'acqua tiepida e un pizzico di sale fino a ottenere un panetto liscio, poi lascia riposare 30 minuti.",
+        "Ricava dei cordoncini di pasta e arrotolali attorno a un ferro sottile per formare le fileja, poi infarinale leggermente.",
+        "Soffriggi la cipolla rossa nell'olio, unisci la 'nduja e falla sciogliere a fuoco basso.",
+        "Aggiungi la passata, regola di sale e cuoci il sugo per 15 minuti.",
+        "Lessa le fileja in acqua salata, scolale al dente e mantecale nel sugo.",
+        "Servi con una spolverata di pecorino grattugiato."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg"
+    },
+    {
+      "title": "Melanzane alla Parmigiana di Calabria",
+      "description": "Strati di melanzane fritte, sugo di pomodoro e formaggio gratinati al forno, piatto della tradizione contadina calabrese ricco e saporito.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 45,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "CAL",
+      "ingredients": [
+        {
+          "name": "Melanzana",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "KG",
+          "essential": true,
+          "note": "lunghe"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 700,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Mozzarella",
+          "category": "DAIRY",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Basilico",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": "fresco"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": "per friggere e condire"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Affetta le melanzane, salale e lasciale spurgare 30 minuti, poi friggile in olio caldo.",
+        "Prepara un sugo soffriggendo la cipolla nell'olio, unendo la passata e cuocendo 20 minuti con qualche foglia di basilico.",
+        "In una teglia alterna strati di melanzane, sugo, mozzarella a cubetti e pecorino grattugiato.",
+        "Ripeti gli strati terminando con sugo e abbondante pecorino.",
+        "Inforna a 180 gradi per circa 30 minuti fino a doratura.",
+        "Lascia riposare 10 minuti prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Melanzane_alla_Parmigiana.jpg/960px-Melanzane_alla_Parmigiana.jpg"
+    },
+    {
+      "title": "Pipi e Patate",
+      "description": "Tipico contorno calabrese di peperoni e patate saltati in padella con cipolla di Tropea, semplice e profumato.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "CAL",
+      "ingredients": [
+        {
+          "name": "Peperone",
+          "category": "PRODUCE",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a falde"
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a tocchetti"
+        },
+        {
+          "name": "Cipolla rossa",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "di Tropea"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 5,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Peperoncino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Taglia i peperoni a falde e le patate a tocchetti, poi affetta la cipolla rossa.",
+        "Scalda l'olio in una padella capiente e fai appassire la cipolla.",
+        "Unisci le patate e falle rosolare qualche minuto mescolando.",
+        "Aggiungi i peperoni, il peperoncino e un pizzico di sale.",
+        "Cuoci a fuoco medio con coperchio per circa 25 minuti, mescolando di tanto in tanto.",
+        "Scopri la padella e lascia asciugare e dorare prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mammola_-_Melanzane_ripiene.jpg/960px-Mammola_-_Melanzane_ripiene.jpg"
+    },
+    {
+      "title": "Pizza Margherita",
+      "description": "La regina delle pizze napoletane, con pomodoro, mozzarella di bufala e basilico a richiamare i colori della bandiera italiana.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 90,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "CAM",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 320,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 10,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Lievito di birra",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresco"
+        },
+        {
+          "name": "Pomodori pelati",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "schiacciati"
+        },
+        {
+          "name": "Mozzarella di bufala",
+          "category": "DAIRY",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a pezzetti"
+        },
+        {
+          "name": "Basilico",
+          "category": "HERB",
+          "quantity": 8,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "foglie fresche"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "a filo"
+        }
+      ],
+      "steps": [
+        "Sciogli il lievito nell'acqua tiepida, poi impasta con la farina e il sale fino a ottenere un panetto liscio.",
+        "Lascia lievitare l'impasto coperto per almeno 8 ore a temperatura ambiente.",
+        "Stendi i panetti a mano formando dischi sottili con il bordo piu' alto.",
+        "Condisci con i pomodori pelati schiacciati e un pizzico di sale.",
+        "Cuoci in forno alla massima temperatura per pochi minuti, poi aggiungi la mozzarella di bufala.",
+        "Completa con le foglie di basilico e un filo d'olio extravergine prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pizza_%2847092865554%29.jpg/960px-Pizza_%2847092865554%29.jpg"
+    },
+    {
+      "title": "Spaghetti alle vongole",
+      "description": "Un primo di mare semplice e profumato in cui le vongole veraci sprigionano tutto il sapore del golfo di Napoli.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "CAM",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "category": "GRAIN",
+          "quantity": 360,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Vongole",
+          "category": "FISH",
+          "quantity": 1,
+          "unit": "KG",
+          "essential": true,
+          "note": "veraci, spurgate"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "spicchi"
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": "tritato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 50,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Peperoncino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Fai aprire le vongole in padella a fuoco vivo con un filo d'olio, poi filtra e conserva il liquido.",
+        "Rosola l'aglio e il peperoncino nell'olio extravergine, sfuma con il vino bianco.",
+        "Aggiungi le vongole con il loro liquido filtrato e parte del prezzemolo.",
+        "Lessa gli spaghetti molto al dente e scolali tenendo da parte un po' di acqua di cottura.",
+        "Manteca la pasta in padella con le vongole, aggiungendo acqua di cottura per legare.",
+        "Completa con il prezzemolo fresco e servi subito."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flickr_-_cyclonebill_-_Spaghetti_med_muslinger.jpg/960px-Flickr_-_cyclonebill_-_Spaghetti_med_muslinger.jpg"
+    },
+    {
+      "title": "Babà al rum",
+      "description": "Il celebre dolce lievitato napoletano, soffice e spugnoso, generosamente inzuppato in una bagna al rum.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 25,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "CAM",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "morbido"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Lievito di birra",
+          "category": "OTHER",
+          "quantity": 7,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresco"
+        },
+        {
+          "name": "Rum",
+          "category": "ALCOHOL",
+          "quantity": 150,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 400,
+          "unit": "ML",
+          "essential": true,
+          "note": "per la bagna"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la farina con il lievito sciolto, le uova e un pizzico di sale fino a ottenere un composto elastico.",
+        "Incorpora il burro morbido poco alla volta, poi lascia lievitare fino al raddoppio.",
+        "Riempi gli stampi da baba' per meta' e fai lievitare di nuovo fino al bordo.",
+        "Cuoci in forno a 180 gradi finche' i baba' risultano dorati e gonfi.",
+        "Prepara la bagna sciogliendo lo zucchero nell'acqua calda e unendo il rum fuori dal fuoco.",
+        "Immergi i baba' tiepidi nella bagna lasciandoli inzuppare bene prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg"
+    },
+    {
+      "title": "Tagliatelle al ragù alla bolognese",
+      "description": "Il piatto simbolo di Bologna: tagliatelle fresche all'uovo condite con il ricco ragù di carne cotto lentamente.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 150,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "EMR",
+      "ingredients": [
+        {
+          "name": "Tagliatelle",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresche all'uovo"
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato"
+        },
+        {
+          "name": "Pancetta",
+          "category": "MEAT",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata finemente"
+        },
+        {
+          "name": "Carota",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a dadini"
+        },
+        {
+          "name": "Sedano",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a dadini"
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Soffriggi nell'olio cipolla, carota e sedano tritati insieme alla pancetta.",
+        "Aggiungi il manzo macinato e rosola a fuoco vivo finché è ben colorito.",
+        "Sfuma con il vino rosso e lascia evaporare l'alcol.",
+        "Unisci la passata di pomodoro, sala e cuoci a fuoco basso per almeno due ore.",
+        "Lessa le tagliatelle in acqua salata, scolale al dente e condiscile con il ragù.",
+        "Servi spolverando con Parmigiano Reggiano grattugiato."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/960px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg"
+    },
+    {
+      "title": "Tortellini in brodo",
+      "description": "I tortellini bolognesi ripieni di carne serviti nel classico brodo di cappone, immancabili nelle feste emiliane.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 90,
+      "cookTimeMinutes": 120,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "EMR",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Maiale",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lombo"
+        },
+        {
+          "name": "Prosciutto crudo",
+          "category": "MEAT",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Mortadella",
+          "category": "MEAT",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Pollo",
+          "category": "MEAT",
+          "quantity": 1,
+          "unit": "KG",
+          "essential": true,
+          "note": "per il brodo"
+        },
+        {
+          "name": "Noce moscata",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Prepara il brodo facendo bollire a lungo il pollo con sedano, carota e cipolla, poi filtra.",
+        "Rosola il maiale e tritalo finemente con prosciutto e mortadella per il ripieno.",
+        "Amalgama le carni tritate con Parmigiano, uovo e noce moscata.",
+        "Impasta farina e uova, tira una sfoglia sottile e ritagliala a quadretti.",
+        "Disponi il ripieno su ogni quadretto e chiudi i tortellini a forma di anello.",
+        "Cuoci i tortellini direttamente nel brodo bollente e servi ben caldi."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tortellini_Bolognesi.jpg/960px-Tortellini_Bolognesi.jpg"
+    },
+    {
+      "title": "Lasagne alla bolognese",
+      "description": "Strati di sfoglia verde all'uovo alternati a ragù, besciamella e Parmigiano, gratinati al forno.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 180,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "EMR",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per la sfoglia"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Spinaci",
+          "category": "PRODUCE",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "per la sfoglia verde"
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato per il ragù"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": true,
+          "note": "per la besciamella"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        }
+      ],
+      "steps": [
+        "Prepara il ragù rosolando il manzo macinato e cuocendolo a lungo con la passata di pomodoro.",
+        "Sbollenta gli spinaci, strizzali e impastali con farina e uova per ottenere la sfoglia verde.",
+        "Prepara la besciamella scaldando il latte con burro e farina fino a farla addensare.",
+        "Lessa brevemente i rettangoli di sfoglia e asciugali su un canovaccio.",
+        "Componi la teglia alternando sfoglia, ragù, besciamella e Parmigiano grattugiato.",
+        "Inforna a 180 gradi per circa 40 minuti finché la superficie è dorata e gratinata."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasagna_bolognese.jpg/960px-Lasagna_bolognese.jpg"
+    },
+    {
+      "title": "Frico friulano con patate",
+      "description": "Croccante e dorata frittella di formaggio Montasio e patate, simbolo della cucina carnica del Friuli.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "FVG",
+      "ingredients": [
+        {
+          "name": "Montasio",
+          "category": "DAIRY",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "metà fresco e metà stagionato, grattugiato"
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fette sottili"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "affettata"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pepe nero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Lessa le patate, sbucciale e tagliale a fette non troppo sottili.",
+        "Soffriggi la cipolla affettata nel burro finché diventa morbida e dorata.",
+        "Unisci le patate alla cipolla, schiacciale leggermente e regola di sale e pepe.",
+        "Aggiungi il Montasio grattugiato e mescola fino a fonderlo con le patate.",
+        "Compatta il composto in padella e cuoci a fuoco medio finché si forma una crosta dorata.",
+        "Gira il frico aiutandoti con un coperchio e dora anche l'altro lato, poi servi caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg"
+    },
+    {
+      "title": "Gulasch alla triestina",
+      "description": "Saporito spezzatino di manzo cotto a lungo con cipolle e paprica, eredità mitteleuropea della cucina di Trieste.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 150,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "FVG",
+      "ingredients": [
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 800,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubotti, taglio da brasato"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "affettata sottile"
+        },
+        {
+          "name": "Paprica",
+          "category": "HERB",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": "dolce"
+        },
+        {
+          "name": "Concentrato di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "spicchio"
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Affetta le cipolle e stufale dolcemente nell'olio finché diventano morbide e ambrate.",
+        "Aggiungi la carne a cubotti e falla rosolare su tutti i lati.",
+        "Unisci aglio, paprica e concentrato, mescolando velocemente per non bruciarli.",
+        "Sfuma con il vino rosso e lascialo evaporare.",
+        "Copri con acqua calda, sala e cuoci a fuoco basso e coperto per circa due ore e mezza.",
+        "Aggiungi liquido se necessario fino a ottenere un sugo denso, poi servi con polenta."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Free_Territory_Trieste_Flag.svg/960px-Free_Territory_Trieste_Flag.svg.png"
+    },
+    {
+      "title": "Cjarsons della Carnia",
+      "description": "Ravioli carnici dal ripieno agrodolce di patate, erbe e spezie, conditi con burro fuso e ricotta affumicata.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "FVG",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lessate e schiacciate"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "per la pasta"
+        },
+        {
+          "name": "Ricotta affumicata",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiata, per condire"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fuso"
+        },
+        {
+          "name": "Uvetta",
+          "category": "PRODUCE",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "ammollata"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Cannella",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": "in polvere"
+        },
+        {
+          "name": "Menta",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "fresca tritata"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta farina, uovo, un pizzico di sale e poca acqua tiepida fino a una pasta liscia, poi lasciala riposare.",
+        "Prepara il ripieno mescolando le patate schiacciate con uvetta, zucchero, cannella, menta e un pizzico di sale.",
+        "Stendi la pasta sottile e ricava dischi con un coppapasta.",
+        "Disponi al centro di ogni disco un po' di ripieno, chiudi a mezzaluna e sigilla bene i bordi.",
+        "Lessa i cjarsons in acqua bollente salata finché salgono a galla.",
+        "Scolali e condisci con burro fuso e abbondante ricotta affumicata grattugiata."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cjalsons.jpg/960px-Cjalsons.jpg"
+    },
+    {
+      "title": "Spaghetti alla Carbonara",
+      "description": "Il piatto simbolo di Roma: spaghetti mantecati con uova, guanciale croccante e pecorino, senza panna.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LAZ",
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "category": "GRAIN",
+          "quantity": 360,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Guanciale",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a listarelle"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "4 tuorli e 1 uovo intero"
+        },
+        {
+          "name": "Pecorino romano",
+          "category": "DAIRY",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Pepe nero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "macinato fresco"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": "per l'acqua"
+        }
+      ],
+      "steps": [
+        "Porta a ebollizione abbondante acqua salata e cuoci gli spaghetti al dente.",
+        "Rosola il guanciale in padella a fuoco medio finche' diventa croccante e ha rilasciato il grasso.",
+        "Sbatti i tuorli e l'uovo con il pecorino e abbondante pepe nero fino a ottenere una crema.",
+        "Scola la pasta tenendo da parte un mestolo di acqua di cottura e versala nella padella con il guanciale.",
+        "Togli dal fuoco, unisci la crema di uova e pecorino e manteca, aggiungendo acqua di cottura per legare.",
+        "Servi subito con altro pecorino e pepe nero."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/960px-Espaguetis_carbonara.jpg"
+    },
+    {
+      "title": "Bucatini all'Amatriciana",
+      "description": "Un classico laziale di origine amatriciana: pasta in un sugo di pomodoro, guanciale croccante e pecorino.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 25,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LAZ",
+      "ingredients": [
+        {
+          "name": "Pasta corta",
+          "category": "GRAIN",
+          "quantity": 360,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "bucatini"
+        },
+        {
+          "name": "Guanciale",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a striscioline"
+        },
+        {
+          "name": "Pomodori pelati",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "schiacciati"
+        },
+        {
+          "name": "Pecorino romano",
+          "category": "DAIRY",
+          "quantity": 70,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 50,
+          "unit": "ML",
+          "essential": false,
+          "note": "secco"
+        },
+        {
+          "name": "Peperoncino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Rosola il guanciale in padella finche' diventa croccante, poi toglilo e tienilo da parte.",
+        "Sfuma il fondo di cottura con il vino bianco e lascia evaporare.",
+        "Aggiungi i pomodori pelati schiacciati e il peperoncino, sala e cuoci per circa 15 minuti.",
+        "Cuoci la pasta al dente in acqua salata e scolala.",
+        "Rimetti il guanciale nel sugo, unisci la pasta e manteca con il pecorino romano.",
+        "Servi caldo con una spolverata di pecorino."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bucatini_%28amatriciana_rossa%29.jpg/960px-Bucatini_%28amatriciana_rossa%29.jpg"
+    },
+    {
+      "title": "Saltimbocca alla Romana",
+      "description": "Iconico secondo romano: fettine di vitello avvolte con prosciutto crudo e salvia, cotte nel burro e sfumate al vino.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LAZ",
+      "ingredients": [
+        {
+          "name": "Vitello",
+          "category": "MEAT",
+          "quantity": 8,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "fettine sottili"
+        },
+        {
+          "name": "Prosciutto crudo",
+          "category": "MEAT",
+          "quantity": 8,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "fette"
+        },
+        {
+          "name": "Salvia",
+          "category": "HERB",
+          "quantity": 8,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "foglie fresche"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 80,
+          "unit": "ML",
+          "essential": false,
+          "note": "secco"
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "per infarinare"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Appiattisci le fettine di vitello e adagia su ciascuna una fetta di prosciutto crudo e una foglia di salvia, fissando con uno stuzzicadenti.",
+        "Infarina leggermente le fettine sul lato della carne.",
+        "Sciogli il burro in padella e rosola i saltimbocca dal lato del prosciutto, poi giralo.",
+        "Sfuma con il vino bianco e lascia restringere il fondo di cottura.",
+        "Aggiusta di sale e servi subito irrorando con il sughetto al burro."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Saltimbocca_cooked_%283%29.jpg/960px-Saltimbocca_cooked_%283%29.jpg"
+    },
+    {
+      "title": "Trofie al pesto genovese",
+      "description": "Le trofie liguri condite con il classico pesto al basilico, patate e fagiolini secondo la tradizione genovese.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LIG",
+      "ingredients": [
+        {
+          "name": "Trofie",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresche o secche"
+        },
+        {
+          "name": "Basilico",
+          "category": "HERB",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "foglie genovesi"
+        },
+        {
+          "name": "Pinoli",
+          "category": "OTHER",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "spicchio"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": true,
+          "note": "ligure"
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "grosso"
+        }
+      ],
+      "steps": [
+        "Pesta nel mortaio aglio, pinoli e basilico con un pizzico di sale grosso fino a ottenere una crema.",
+        "Aggiungi i formaggi grattugiati e versa l'olio a filo mescolando fino a ottenere un pesto omogeneo.",
+        "Lessa le patate a cubetti e i fagiolini in acqua salata, poi unisci le trofie nella stessa pentola.",
+        "Scola al dente conservando un mestolo di acqua di cottura.",
+        "Stempera il pesto con poca acqua tiepida, condisci le trofie e servi subito senza cuocere il pesto."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/BasilPesto.JPG/960px-BasilPesto.JPG"
+    },
+    {
+      "title": "Focaccia genovese",
+      "description": "La soffice focaccia ligure alta e fragrante, condita in superficie con olio extravergine e sale grosso.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 20,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "LIG",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 300,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 60,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Lievito di birra",
+          "category": "OTHER",
+          "quantity": 12,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresco"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 10,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fino nell'impasto"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 5,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "per attivare il lievito"
+        }
+      ],
+      "steps": [
+        "Sciogli il lievito e lo zucchero nell'acqua tiepida, poi impasta con la farina, il sale e parte dell'olio.",
+        "Lavora fino a ottenere un impasto morbido e lascia lievitare coperto per circa un'ora.",
+        "Stendi l'impasto in una teglia unta e fai riposare ancora 30 minuti.",
+        "Prepara una emulsione di acqua e olio, versala in superficie e affonda i polpastrelli formando le classiche fossette.",
+        "Cospargi di sale grosso e cuoci in forno a 220 gradi per circa 20 minuti fino a doratura."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Focaccia_on_sale_in_Genoa.JPG/960px-Focaccia_on_sale_in_Genoa.JPG"
+    },
+    {
+      "title": "Pansoti con salsa di noci",
+      "description": "Ravioli liguri ripieni di erbe selvatiche e ricotta, serviti con la cremosa salsa di noci.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 10,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LIG",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per la sfoglia"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Bietola",
+          "category": "PRODUCE",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "o erbette miste"
+        },
+        {
+          "name": "Ricotta",
+          "category": "DAIRY",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Noci",
+          "category": "OTHER",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sgusciate"
+        },
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "ammollato nel latte"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "spicchio"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 50,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta farina e uova fino a una sfoglia liscia, poi lasciala riposare coperta per 30 minuti.",
+        "Lessa le bietole, strizzale bene e tritale, unendole a ricotta, parmigiano e sale per il ripieno.",
+        "Stendi la sfoglia sottile, distribuisci il ripieno e chiudi i pansoti a triangolo sigillando bene i bordi.",
+        "Frulla le noci con il pane ammollato, l'aglio, l'olio e un pizzico di sale fino a ottenere una salsa cremosa.",
+        "Lessa i pansoti in acqua salata, scolali delicatamente e condiscili con la salsa di noci ammorbidita con poca acqua di cottura."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pastificio_Novella_-_Pansoti_Preboggion%2C_crop.jpg/960px-Pastificio_Novella_-_Pansoti_Preboggion%2C_crop.jpg"
+    },
+    {
+      "title": "Risotto alla Milanese",
+      "description": "Il celebre risotto giallo milanese mantecato con zafferano e midollo di bue, simbolo della cucina lombarda.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LOM",
+      "ingredients": [
+        {
+          "name": "Riso Carnaroli",
+          "category": "GRAIN",
+          "quantity": 320,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Zafferano",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "in bustina o pistilli"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata finemente"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Midollo di bue",
+          "category": "MEAT",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "facoltativo, tradizionale"
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "L",
+          "essential": true,
+          "note": "brodo di carne"
+        }
+      ],
+      "steps": [
+        "Soffriggi la cipolla tritata con metà del burro e il midollo finché diventa trasparente.",
+        "Tosta il riso nel soffritto per un paio di minuti, poi sfuma con il vino bianco.",
+        "Aggiungi il brodo caldo poco alla volta, mescolando spesso.",
+        "A metà cottura sciogli lo zafferano in un mestolo di brodo e uniscilo al riso.",
+        "A cottura ultimata togli dal fuoco e manteca con il burro rimasto e il Parmigiano.",
+        "Lascia riposare un minuto e servi all'onda, ben cremoso."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Sun-rice_%2811027684905%29.jpg/960px-Sun-rice_%2811027684905%29.jpg"
+    },
+    {
+      "title": "Cotoletta alla Milanese",
+      "description": "La classica costoletta di vitello impanata e fritta nel burro, croccante fuori e tenera dentro.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "servings": 2,
+      "type": "TRADITIONAL",
+      "regionCode": "LOM",
+      "ingredients": [
+        {
+          "name": "Vitello",
+          "category": "MEAT",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "costolette con osso"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pangrattato",
+          "category": "GRAIN",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "chiarificato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Limone",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "a spicchi, per servire"
+        }
+      ],
+      "steps": [
+        "Batti leggermente le costolette per uniformarne lo spessore.",
+        "Passa la carne prima nelle uova sbattute e poi nel pangrattato, premendo bene.",
+        "Scalda abbondante burro chiarificato in padella.",
+        "Friggi le cotolette a fuoco medio fino a doratura su entrambi i lati.",
+        "Scolale su carta assorbente e sala.",
+        "Servi calde con spicchi di limone."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cotoletta_alla_milanese_in_milano.jpg/960px-Cotoletta_alla_milanese_in_milano.jpg"
+    },
+    {
+      "title": "Ossobuco alla Milanese con gremolada",
+      "description": "Tenero stinco di vitello brasato a lungo nel vino e profumato dalla gremolada di limone, aglio e prezzemolo.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 120,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "LOM",
+      "ingredients": [
+        {
+          "name": "Vitello",
+          "category": "MEAT",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "fette di ossobuco"
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per infarinare"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 150,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "per la gremolada"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "per la gremolada"
+        },
+        {
+          "name": "Limone",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "scorza grattugiata"
+        }
+      ],
+      "steps": [
+        "Pratica dei tagli sul bordo degli ossibuchi e infarinali leggermente.",
+        "Rosolali nel burro fino a doratura, poi mettili da parte.",
+        "Nello stesso tegame soffriggi la cipolla, rimetti la carne e sfuma con il vino bianco.",
+        "Unisci la passata, copri e brasa a fuoco basso per circa due ore aggiungendo brodo se serve.",
+        "Prepara la gremolada tritando insieme prezzemolo, aglio e scorza di limone.",
+        "A fine cottura cospargi la gremolada sull'ossobuco e servi caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/N.grandeTicinello_032.jpg/960px-N.grandeTicinello_032.jpg"
+    },
+    {
+      "title": "Vincisgrassi alla maceratese",
+      "description": "Sontuoso pasticcio di pasta all'uovo marchigiano condito con un ricco ragu di carni miste e besciamella, cugino nobile della lasagna.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 90,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "MAR",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per la sfoglia"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato"
+        },
+        {
+          "name": "Salsiccia",
+          "category": "MEAT",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sbriciolata"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": true,
+          "note": "per la besciamella"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "tritata"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta farina e uova, lavora fino a ottenere un panetto liscio e fai riposare 30 minuti, poi tira sfoglie sottili.",
+        "Soffriggi la cipolla, unisci manzo e salsiccia, sfuma con il vino bianco e aggiungi la passata; cuoci il ragu a fuoco basso per almeno un'ora.",
+        "Prepara la besciamella sciogliendo il burro con poca farina e versando il latte caldo fino ad addensare.",
+        "Sbollenta le sfoglie e asciugale, poi alterna in teglia strati di pasta, ragu, besciamella e Parmigiano Reggiano.",
+        "Termina con besciamella e abbondante Parmigiano e inforna a 180 gradi per circa 30 minuti.",
+        "Lascia riposare 10 minuti prima di servire per facilitare il taglio delle porzioni."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Vincisgrassi_alla_maceratese.jpg/960px-Vincisgrassi_alla_maceratese.jpg"
+    },
+    {
+      "title": "Brodetto all'anconetana",
+      "description": "Tradizionale zuppa di pesce del porto di Ancona preparata con tredici varieta di pesce e molluschi insaporiti dal pomodoro e dall'aceto.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 40,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "MAR",
+      "ingredients": [
+        {
+          "name": "Vongole",
+          "category": "FISH",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "spurgate"
+        },
+        {
+          "name": "Cozze",
+          "category": "FISH",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "pulite"
+        },
+        {
+          "name": "Seppia",
+          "category": "FISH",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a pezzi"
+        },
+        {
+          "name": "Coda di rospo",
+          "category": "FISH",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "in tranci"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 300,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Aceto",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": "di vino bianco"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "in camicia"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "fette da tostare"
+        }
+      ],
+      "steps": [
+        "Apri vongole e cozze in padella coperta a fuoco vivo, poi filtra e conserva il liquido di cottura.",
+        "Soffriggi l'aglio nell'olio, unisci le seppie e rosolale, quindi sfuma con l'aceto facendolo evaporare.",
+        "Aggiungi la passata di pomodoro e il liquido dei molluschi e cuoci per una decina di minuti.",
+        "Adagia i tranci di pesce piu sodo e cuoci a fuoco moderato senza mescolare troppo per non romperli.",
+        "Unisci infine vongole e cozze sgusciate, profuma con il prezzemolo e regola di sale.",
+        "Servi caldo nei piatti fondi con fette di pane raffermo tostato sul fondo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Foto_brodetto_.jpg/960px-Foto_brodetto_.jpg"
+    },
+    {
+      "title": "Olive all'ascolana",
+      "description": "Celebri olive verdi del Piceno denocciolate e farcite con un ripieno di carni miste, impanate e fritte fino a doratura croccante.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 90,
+      "cookTimeMinutes": 20,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "MAR",
+      "ingredients": [
+        {
+          "name": "Olive verdi",
+          "category": "PRODUCE",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grandi, denocciolate"
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato"
+        },
+        {
+          "name": "Maiale",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato"
+        },
+        {
+          "name": "Pollo",
+          "category": "MEAT",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "petto, a pezzetti"
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pangrattato",
+          "category": "GRAIN",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per impanare"
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per impanare"
+        },
+        {
+          "name": "Noce moscata",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": "grattugiata"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 50,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Rosola le carni miste con un filo d'olio, sfuma con il vino bianco e lascia cuocere finche risultano tenere.",
+        "Trita finemente le carni e amalgamale con Parmigiano Reggiano, un uovo, noce moscata e sale fino a ottenere un ripieno compatto.",
+        "Farcisci ogni oliva denocciolata con il ripieno, richiudendola e modellandola a forma sferica.",
+        "Passa le olive prima nella farina, poi nelle uova sbattute e infine nel pangrattato.",
+        "Friggi in olio profondo ben caldo poche olive per volta fino a doratura uniforme.",
+        "Scola su carta assorbente e servi subito ben calde e croccanti."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Olive_all%27ascolana.jpg/960px-Olive_all%27ascolana.jpg"
+    },
+    {
+      "title": "Cavatelli al ragù molisano",
+      "description": "Pasta fresca di semola tirata a mano e condita con un ricco ragù di carne mista, piatto simbolo della domenica molisana.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 50,
+      "cookTimeMinutes": 150,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "MOL",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Maiale",
+          "category": "MEAT",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a pezzi"
+        },
+        {
+          "name": "Salsiccia",
+          "category": "MEAT",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 700,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la semola con l'acqua tiepida e un pizzico di sale fino a ottenere un panetto liscio, poi lascia riposare 30 minuti.",
+        "Ricava cordoncini sottili, taglia piccoli tocchetti e trascinali sul tagliere con le dita per formare i cavatelli incavati.",
+        "In una casseruola soffriggi la cipolla nell'olio, aggiungi il maiale e la salsiccia e rosolali bene.",
+        "Sfuma con il vino rosso, unisci la passata, regola di sale e cuoci il ragù a fuoco basso per circa due ore.",
+        "Lessa i cavatelli in acqua salata, scolali al dente e mantecali nel ragù.",
+        "Servi caldo con una generosa spolverata di pecorino grattugiato."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Noto%2C_Cavatelli_pomodoro_ricotta_salata_%28cropped%29.jpg/960px-Noto%2C_Cavatelli_pomodoro_ricotta_salata_%28cropped%29.jpg"
+    },
+    {
+      "title": "Pampanella molisana",
+      "description": "Carne di maiale marinata con peperoncino dolce e aceto e cotta lentamente al forno, specialità tipica di San Martino in Pensilis.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 90,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "MOL",
+      "ingredients": [
+        {
+          "name": "Maiale",
+          "category": "MEAT",
+          "quantity": 1000,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "costine e pancetta a pezzi"
+        },
+        {
+          "name": "Peperone dolce in polvere",
+          "category": "HERB",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Peperoncino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": "in polvere"
+        },
+        {
+          "name": "Aceto",
+          "category": "PANTRY",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": true,
+          "note": "di vino"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "spicchi tritati"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Disponi i pezzi di maiale in una teglia e condiscili con aglio, olio, sale, peperone dolce e peperoncino.",
+        "Massaggia bene la carne con la marinata fino a coprirla in modo uniforme di colore rosso intenso.",
+        "Inforna a 160°C per circa un'ora e mezza, bagnando di tanto in tanto con il fondo di cottura.",
+        "A fine cottura sfuma con l'aceto e rimetti in forno pochi minuti per insaporire.",
+        "Servi la pampanella ben calda con pane casereccio."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Pecorino_romano_on_board_cropped.PNG"
+    },
+    {
+      "title": "Zuppa di cardi alla molisana",
+      "description": "Tradizionale zuppa natalizia molisana a base di cardi lessati in brodo con polpettine di carne e uova.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 60,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "MOL",
+      "ingredients": [
+        {
+          "name": "Cardo",
+          "category": "PRODUCE",
+          "quantity": 1000,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "pulito e a pezzi"
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato per le polpettine"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "ammollato"
+        },
+        {
+          "name": "Limone",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "succo, per i cardi"
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Pulisci i cardi eliminando i filamenti, tagliali a pezzi e lessali in acqua acidulata con succo di limone.",
+        "Prepara piccole polpettine impastando il manzo con pane raffermo, un uovo, pecorino, prezzemolo e sale.",
+        "Porta a bollore un buon brodo di carne e cuoci le polpettine fino a doratura.",
+        "Aggiungi i cardi scolati al brodo e lascia insaporire qualche minuto.",
+        "Sbatti le uova rimaste con il pecorino e versale a filo nella zuppa mescolando per creare la stracciatella.",
+        "Servi la zuppa ben calda con altro pecorino a piacere."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mammola_-_Melanzane_ripiene.jpg/960px-Mammola_-_Melanzane_ripiene.jpg"
+    },
+    {
+      "title": "Bagna càuda",
+      "description": "Salsa calda piemontese a base di aglio, acciughe e olio in cui si intingono verdure crude e cotte, simbolo conviviale dell'autunno e dell'inverno.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 40,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "PIE",
+      "ingredients": [
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 12,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "spicchi, privati dell'anima"
+        },
+        {
+          "name": "Acciughe",
+          "category": "FISH",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sotto sale, diliscate"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 250,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 250,
+          "unit": "ML",
+          "essential": false,
+          "note": "per ammorbidire l'aglio"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "facoltativo, per mantecare"
+        },
+        {
+          "name": "Peperone",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "crudi, a falde, per intingere"
+        },
+        {
+          "name": "Cardo",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "per intingere"
+        }
+      ],
+      "steps": [
+        "Affetta sottilmente l'aglio e mettilo a cuocere lentamente nel latte per circa 20 minuti, finche' non risulta morbido.",
+        "Scola l'aglio e trasferiscilo in un tegame di coccio con l'olio extravergine di oliva.",
+        "Unisci le acciughe diliscate e cuoci a fuoco bassissimo, mescolando, fino a scioglierle completamente nell'olio.",
+        "Manteca con il burro se desideri una salsa piu' vellutata e lasciala sobbollire dolcemente senza farla friggere.",
+        "Servi caldissima nel fojot al centro della tavola e intingi le verdure crude e cotte."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bagna_c%C3%A0uda_%282016-01-30%29.jpg/960px-Bagna_c%C3%A0uda_%282016-01-30%29.jpg"
+    },
+    {
+      "title": "Brasato al Barolo",
+      "description": "Carne di manzo marinata e cotta a lungo nel Barolo con verdure e spezie, secondo piatto principe della tradizione langarola.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 180,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "PIE",
+      "ingredients": [
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 1200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "cappello del prete o copertina"
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 750,
+          "unit": "ML",
+          "essential": true,
+          "note": "Barolo"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Carota",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a tocchetti"
+        },
+        {
+          "name": "Sedano",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a tocchetti"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Alloro",
+          "category": "HERB",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "foglie"
+        },
+        {
+          "name": "Rosmarino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "rametto"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Pepe nero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Metti la carne a marinare per almeno 12 ore con il vino rosso, le verdure a pezzi, l'alloro e il rosmarino.",
+        "Scola la carne, asciugala e rosolala nel burro in una casseruola capiente fino a doratura uniforme.",
+        "Aggiungi le verdure della marinata e fai insaporire qualche minuto, poi versa il vino della marinata filtrato.",
+        "Sala, pepa e cuoci coperto a fuoco basso per circa 3 ore, girando la carne di tanto in tanto.",
+        "Togli la carne, frulla il fondo di cottura con le verdure fino a ottenere una salsa densa.",
+        "Affetta il brasato, nappalo con la salsa e servi ben caldo, accompagnato da polenta o pure'."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Brasato_al_barolo_2.jpg/960px-Brasato_al_barolo_2.jpg"
+    },
+    {
+      "title": "Bunet",
+      "description": "Budino piemontese al cioccolato e amaretti aromatizzato al rum, dolce al cucchiaio cotto in caramello tipico delle Langhe.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 60,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "PIE",
+      "ingredients": [
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Amaretti",
+          "category": "GRAIN",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sbriciolati"
+        },
+        {
+          "name": "Cacao amaro",
+          "category": "OTHER",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "in polvere"
+        },
+        {
+          "name": "Rum",
+          "category": "ALCOHOL",
+          "quantity": 30,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "per il caramello"
+        }
+      ],
+      "steps": [
+        "Prepara un caramello scuro con lo zucchero e versalo sul fondo di uno stampo da plumcake, ruotandolo per rivestirlo.",
+        "Sbatti le uova con lo zucchero, poi unisci il cacao, gli amaretti sbriciolati e il rum.",
+        "Versa il latte caldo a filo mescolando fino a ottenere un composto liscio e omogeneo.",
+        "Trasferisci il composto nello stampo caramellato e cuoci a bagnomaria in forno a 160 gradi per circa un'ora.",
+        "Lascia raffreddare completamente, meglio se in frigorifero per qualche ora, prima di sformare.",
+        "Capovolgi il bunet sul piatto da portata facendo colare il caramello e servi a fette."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Bonet.jpg/960px-Bonet.jpg"
+    },
+    {
+      "title": "Orecchiette alle cime di rapa",
+      "description": "Il piatto simbolo della Puglia: orecchiette di semola condite con cime di rapa, aglio, acciughe e peperoncino.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "PUG",
+      "ingredients": [
+        {
+          "name": "Orecchiette",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di semola"
+        },
+        {
+          "name": "Cime di rapa",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "KG",
+          "essential": true,
+          "note": "pulite"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "spicchi"
+        },
+        {
+          "name": "Acciughe",
+          "category": "FISH",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "sott'olio"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Peperoncino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Pulisci le cime di rapa eliminando le foglie dure e lessale in abbondante acqua salata.",
+        "Aggiungi le orecchiette nella stessa acqua delle cime e cuoci insieme fino a cottura.",
+        "Soffriggi in padella l'olio con aglio, peperoncino e acciughe finche' si sciolgono.",
+        "Scola pasta e cime e mantecale nella padella con il condimento.",
+        "Servi subito ben calde."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Orecchiette_carbonara.jpg"
+    },
+    {
+      "title": "Focaccia barese",
+      "description": "La soffice focaccia di Bari con pomodorini, olive e origano, dall'interno morbido e dalla crosta dorata.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 25,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "PUG",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lessate"
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 350,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Lievito di birra",
+          "category": "OTHER",
+          "quantity": 7,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresco"
+        },
+        {
+          "name": "Pomodorini",
+          "category": "PRODUCE",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a meta'"
+        },
+        {
+          "name": "Olive nere",
+          "category": "PRODUCE",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 5,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Origano",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": "secco"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Sciogli il lievito nell'acqua tiepida e impasta con le farine, la patata schiacciata e il sale.",
+        "Lavora fino a ottenere un impasto morbido e lascia lievitare coperto per circa 2 ore.",
+        "Stendi l'impasto in una teglia oliata e premi con le dita per formare gli incavi.",
+        "Distribuisci i pomodorini, le olive, abbondante olio, sale e origano.",
+        "Cuoci in forno caldo a 220 gradi per circa 25 minuti finche' dorata."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/FocacciaBarese.jpg/960px-FocacciaBarese.jpg"
+    },
+    {
+      "title": "Tiella barese di riso, patate e cozze",
+      "description": "Il celebre tiello pugliese a strati di riso, patate e cozze profumato con pomodorini, cipolla e pecorino.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 60,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "PUG",
+      "ingredients": [
+        {
+          "name": "Cozze",
+          "category": "FISH",
+          "quantity": 1,
+          "unit": "KG",
+          "essential": true,
+          "note": "pulite"
+        },
+        {
+          "name": "Riso Carnaroli",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fette sottili"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "affettata"
+        },
+        {
+          "name": "Pomodorini",
+          "category": "PRODUCE",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a meta'"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Apri le cozze a crudo conservando meta' guscio e filtra il loro liquido.",
+        "Ungi una teglia e disponi uno strato di cipolla, patate e pomodorini.",
+        "Adagia le cozze nel guscio, copri con il riso crudo e cospargi di pecorino e prezzemolo.",
+        "Termina con un altro strato di patate e pomodorini, sale e olio.",
+        "Versa il liquido delle cozze e acqua fino a coprire il riso.",
+        "Cuoci in forno a 180 gradi per circa un'ora finche' il riso e' cotto e la superficie dorata."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Patate_riso_e_cozze.jpg/960px-Patate_riso_e_cozze.jpg"
+    },
+    {
+      "title": "Culurgiones ogliastrini",
+      "description": "Ravioli sardi a forma di spiga chiusi a mano, ripieni di patate, pecorino e menta, conditi con sugo di pomodoro fresco.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 90,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "SAR",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Patate",
+          "category": "PRODUCE",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lessate"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Menta",
+          "category": "HERB",
+          "quantity": 10,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresca tritata"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la semola con l'acqua tiepida e un pizzico di sale fino a ottenere un panetto liscio, poi lascialo riposare coperto per 30 minuti.",
+        "Schiaccia le patate lessate e mescolale con il pecorino, la menta tritata e l'aglio per ottenere un ripieno compatto.",
+        "Stendi la sfoglia sottile e ricava dei dischi, ponendo al centro una noce di ripieno.",
+        "Chiudi ogni culurgione pizzicando i bordi a spiga, alternando i lembi da destra a sinistra.",
+        "Cuoci i culurgiones in acqua salata per 5-6 minuti e scolali appena vengono a galla.",
+        "Condisci con la passata di pomodoro insaporita con olio e una spolverata di pecorino."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Culurgione.jpg"
+    },
+    {
+      "title": "Porceddu sardo",
+      "description": "Maialino da latte arrostito lentamente allo spiedo o in forno fino a renderlo croccante e profumato di mirto.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 180,
+      "servings": 8,
+      "type": "TRADITIONAL",
+      "regionCode": "SAR",
+      "ingredients": [
+        {
+          "name": "Maiale",
+          "category": "MEAT",
+          "quantity": 4,
+          "unit": "KG",
+          "essential": true,
+          "note": "maialino da latte"
+        },
+        {
+          "name": "Mirto",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "rami freschi"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "grosso"
+        },
+        {
+          "name": "Rosmarino",
+          "category": "HERB",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "rametti"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Alloro",
+          "category": "HERB",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "foglie"
+        }
+      ],
+      "steps": [
+        "Pulisci e apri il maialino, poi salalo abbondantemente all'interno e all'esterno.",
+        "Infilza il maialino sullo spiedo o disponilo aperto in una teglia capiente con i rametti aromatici.",
+        "Arrostisci a calore moderato per circa 3 ore, girando di tanto in tanto e ungendo la cotenna con olio.",
+        "Negli ultimi minuti alza la temperatura per rendere la cotenna ben croccante e dorata.",
+        "Lascia riposare la carne adagiata su un letto di rami di mirto prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg"
+    },
+    {
+      "title": "Seadas",
+      "description": "Dolce fritto sardo di pasta croccante ripiena di formaggio fresco filante e servita con miele caldo.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 10,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "SAR",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Strutto",
+          "category": "MEAT",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 120,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Pecorino",
+          "category": "DAIRY",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fresco"
+        },
+        {
+          "name": "Limone",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "scorza grattugiata"
+        },
+        {
+          "name": "Miele",
+          "category": "OTHER",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di corbezzolo"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": false,
+          "note": "per friggere"
+        }
+      ],
+      "steps": [
+        "Impasta la semola con lo strutto e l'acqua tiepida fino a ottenere una sfoglia liscia ed elastica, poi falla riposare.",
+        "Sciogli il pecorino fresco a bagnomaria con la scorza di limone e forma dei dischetti, lasciandoli raffreddare.",
+        "Stendi la sfoglia sottile e racchiudi ogni dischetto di formaggio tra due dischi di pasta, sigillando bene i bordi.",
+        "Friggi le seadas in olio caldo girandole fino a doratura uniforme.",
+        "Scolale su carta assorbente e servile subito irrorate con il miele caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/SeadasCA.jpg"
+    },
+    {
+      "title": "Pasta alla Norma",
+      "description": "Il celebre primo piatto catanese con melanzane fritte, pomodoro fresco e ricotta salata grattugiata.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "SIC",
+      "ingredients": [
+        {
+          "name": "Pasta corta",
+          "category": "GRAIN",
+          "quantity": 360,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "sedani o maccheroni"
+        },
+        {
+          "name": "Melanzana",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "PANTRY",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Ricotta salata",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "grattugiata"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Basilico",
+          "category": "HERB",
+          "quantity": 6,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "foglie fresche"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 4,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Taglia le melanzane a cubetti e friggile in olio caldo fino a doratura, poi scolale su carta assorbente.",
+        "In una padella soffriggi l'aglio nell'olio, aggiungi la passata e cuoci per 15 minuti con qualche foglia di basilico.",
+        "Lessa la pasta corta in abbondante acqua salata e scolala al dente.",
+        "Manteca la pasta nel sugo, unisci le melanzane fritte e mescola delicatamente.",
+        "Servi con abbondante ricotta salata grattugiata e basilico fresco."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg/960px-Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg"
+    },
+    {
+      "title": "Arancini di riso",
+      "description": "Le iconiche palle di riso siciliane impanate e fritte, ripiene di ragù, piselli e caciocavallo.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 40,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "SIC",
+      "ingredients": [
+        {
+          "name": "Riso Carnaroli",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Zafferano",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "una bustina"
+        },
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "macinato"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Piselli",
+          "category": "LEGUME",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Caciocavallo",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pangrattato",
+          "category": "GRAIN",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "L",
+          "essential": true,
+          "note": "per friggere"
+        }
+      ],
+      "steps": [
+        "Lessa il riso in acqua salata, aggiungi lo zafferano sciolto, scolalo e lascialo raffreddare steso su un vassoio.",
+        "Prepara il ragù soffriggendo il macinato, unendo la passata e i piselli, e cuoci finché si asciuga.",
+        "Forma con il riso delle palle, crea un incavo, riempile con ragù e caciocavallo e richiudile a cono o a sfera.",
+        "Passa gli arancini nell'uovo sbattuto e poi nel pangrattato premendo bene.",
+        "Friggi in olio profondo e caldo fino a doratura uniforme, poi scola su carta assorbente e servi caldi."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Arancini_002.jpg/960px-Arancini_002.jpg"
+    },
+    {
+      "title": "Cannoli siciliani",
+      "description": "Il dolce siciliano per eccellenza, con cialda croccante fritta e ripieno di ricotta dolce e gocce di cioccolato.",
+      "difficulty": "HARD",
+      "prepTimeMinutes": 60,
+      "cookTimeMinutes": 20,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "SIC",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 80,
+          "unit": "ML",
+          "essential": true,
+          "note": "marsala o vino"
+        },
+        {
+          "name": "Ricotta",
+          "category": "DAIRY",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di pecora, ben scolata"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Gocce di cioccolato",
+          "category": "OTHER",
+          "quantity": 80,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "per chiudere le cialde"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "L",
+          "essential": true,
+          "note": "per friggere"
+        }
+      ],
+      "steps": [
+        "Impasta la farina con lo zucchero, un poco di strutto e il vino fino a ottenere un panetto liscio, poi fai riposare per 30 minuti.",
+        "Stendi la pasta sottile, ricava dei dischi e avvolgili attorno ai cilindri da cannolo sigillando con l'uovo.",
+        "Friggi le cialde in olio caldo fino a doratura e croccantezza, poi sfilale dai cilindri e falle raffreddare.",
+        "Lavora la ricotta scolata con lo zucchero fino a crema liscia e unisci le gocce di cioccolato.",
+        "Riempi le cialde con la crema solo al momento di servire e spolvera con zucchero a velo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/960px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg"
+    },
+    {
+      "title": "Ribollita Toscana",
+      "description": "Zuppa povera toscana a base di pane raffermo, cavolo nero e fagioli cannellini, fatta riposare e poi ribollita.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 120,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "TOS",
+      "ingredients": [
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "toscano sciapo"
+        },
+        {
+          "name": "Fagioli cannellini",
+          "category": "LEGUME",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lessati"
+        },
+        {
+          "name": "Cavolo nero",
+          "category": "PRODUCE",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a striscioline"
+        },
+        {
+          "name": "Verza",
+          "category": "PRODUCE",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "affettata"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Carota",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Sedano",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 6,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Soffriggi cipolla, carota e sedano nell'olio extravergine di oliva fino a doratura.",
+        "Unisci la verza e il cavolo nero affettati e fai appassire qualche minuto.",
+        "Aggiungi la passata di pomodoro e meta' dei fagioli cannellini interi, poi copri con acqua e cuoci a fuoco lento per circa un'ora.",
+        "Frulla il resto dei fagioli e incorporali alla zuppa per renderla cremosa, regolando di sale.",
+        "Spezzetta il pane raffermo nella zuppa e lascia riposare almeno 30 minuti.",
+        "Il giorno dopo ribolli il tutto e servi con un filo d'olio a crudo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ribollita_Siena.jpg/960px-Ribollita_Siena.jpg"
+    },
+    {
+      "title": "Bistecca alla Fiorentina",
+      "description": "Spessa bistecca di manzo nel taglio della lombata, cotta alla griglia ben al sangue e condita solo con sale, pepe e olio.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "servings": 2,
+      "type": "TRADITIONAL",
+      "regionCode": "TOS",
+      "ingredients": [
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 1200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lombata con osso, alta 4-5 cm"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": "grosso"
+        },
+        {
+          "name": "Pepe nero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": "macinato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "a crudo"
+        },
+        {
+          "name": "Rosmarino",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "rametto"
+        }
+      ],
+      "steps": [
+        "Togli la bistecca dal frigo almeno un'ora prima per portarla a temperatura ambiente.",
+        "Scalda bene la griglia o la brace fino a ottenere una fiamma viva e ardente.",
+        "Cuoci la bistecca circa 5 minuti per lato senza forarla, lasciando l'interno al sangue.",
+        "Cuoci anche sul lato dell'osso tenendola in piedi per qualche minuto.",
+        "Sala con sale grosso, pepa e lasciala riposare un paio di minuti prima di servire con un filo d'olio."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bistecca_alla_fiorentina-01.jpg"
+    },
+    {
+      "title": "Cantucci di Prato",
+      "description": "Croccanti biscotti toscani alle mandorle, tagliati in diagonale e tradizionalmente serviti con il Vin Santo.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "servings": 8,
+      "type": "TRADITIONAL",
+      "regionCode": "TOS",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Mandorle",
+          "category": "PRODUCE",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "intere con la pelle"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "morbido"
+        },
+        {
+          "name": "Lievito per dolci",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Vin Santo",
+          "category": "ALCOHOL",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": false,
+          "note": "per servire"
+        }
+      ],
+      "steps": [
+        "Impasta farina, zucchero, lievito, uova e burro fino a ottenere un composto omogeneo.",
+        "Incorpora le mandorle intere distribuendole uniformemente nell'impasto.",
+        "Forma due filoncini su una teglia con carta forno e cuoci a 180 gradi per circa 20 minuti.",
+        "Sforna, taglia i filoncini in diagonale a fette spesse circa 1 cm.",
+        "Rimetti i cantucci in forno qualche minuto per lato fino a doratura e croccantezza.",
+        "Servi i cantucci accompagnati da un bicchierino di Vin Santo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/I_cantuccini.jpg/960px-I_cantuccini.jpg"
+    },
+    {
+      "title": "Canederli (Knödel) allo speck",
+      "description": "Grandi gnocchi di pane raffermo arricchiti con speck e prezzemolo, simbolo della cucina tirolese, serviti in brodo o asciutti con burro fuso.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "TAA",
+      "ingredients": [
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Speck",
+          "category": "MEAT",
+          "quantity": 150,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 250,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepido"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "tritata"
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Taglia il pane raffermo a cubetti, mettilo in una ciotola capiente e versa il latte tiepido; lascia ammorbidire per 15 minuti.",
+        "Rosola la cipolla tritata nel burro, aggiungi lo speck a cubetti e fai insaporire un paio di minuti.",
+        "Unisci al pane le uova, la farina, lo speck rosolato, il prezzemolo e un pizzico di sale; impasta fino a ottenere un composto omogeneo.",
+        "Con le mani umide forma palle grosse come un mandarino, compattandole bene.",
+        "Cuoci i canederli in abbondante brodo o acqua salata a leggero bollore per circa 15 minuti, finche' salgono a galla.",
+        "Servi in brodo caldo oppure scolati e conditi con burro fuso."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Semmelkn%C3%B6del.jpg/960px-Semmelkn%C3%B6del.jpg"
+    },
+    {
+      "title": "Spatzle agli spinaci",
+      "description": "Piccoli gnocchetti verdi di pasta morbida tipici dell'Alto Adige, ottenuti con farina e spinaci e serviti con burro, panna e formaggio.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 10,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "TAA",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Spinaci",
+          "category": "PRODUCE",
+          "quantity": 200,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "lessati e frullati"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 3,
+          "unit": "PIECES",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Latte",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Panna",
+          "category": "DAIRY",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Grana Padano",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        },
+        {
+          "name": "Noce moscata",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Lessa gli spinaci, strizzali bene e frullali fino a ottenere una purea.",
+        "In una ciotola mescola farina, uova, spinaci, un po' di latte, sale e noce moscata fino a ottenere una pastella densa ma fluida.",
+        "Versa l'impasto nell'apposito attrezzo per spatzle facendolo cadere a gocce nell'acqua salata in ebollizione.",
+        "Scola gli spatzle non appena salgono a galla e tienili da parte.",
+        "Sciogli il burro in padella, unisci la panna e fai insaporire gli spatzle un paio di minuti.",
+        "Servi caldi con una generosa spolverata di grana padano grattugiato."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Spaghetti_vongole_2.jpg"
+    },
+    {
+      "title": "Strudel di mele",
+      "description": "Il dolce piu' celebre del Trentino-Alto Adige, un rotolo di pasta sottile farcito con mele, uvetta, pinoli e cannella.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 45,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "TAA",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Mela",
+          "category": "PRODUCE",
+          "quantity": 800,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fettine sottili"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "fuso"
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Uvetta",
+          "category": "PRODUCE",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "ammollata"
+        },
+        {
+          "name": "Pinoli",
+          "category": "PRODUCE",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Pangrattato",
+          "category": "GRAIN",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "tostato nel burro"
+        },
+        {
+          "name": "Cannella",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": "in polvere"
+        }
+      ],
+      "steps": [
+        "Impasta farina, uovo, un po' di burro fuso, un pizzico di sale e acqua tiepida fino a ottenere un panetto liscio; lascia riposare 30 minuti coperto.",
+        "Condisci le mele a fettine con zucchero, cannella, uvetta ammollata e pinoli.",
+        "Stendi la pasta molto sottile su un canovaccio infarinato, spennellala di burro fuso e cospargi con il pangrattato tostato.",
+        "Distribuisci il ripieno di mele e arrotola lo strudel aiutandoti con il canovaccio, sigillando bene i bordi.",
+        "Adagia il rotolo su una teglia, spennella la superficie con burro fuso e cuoci in forno a 180 gradi per circa 45 minuti.",
+        "Lascia intiepidire, spolvera con zucchero a velo e servi a fette."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wiener_Apfelstrudel.jpg/960px-Wiener_Apfelstrudel.jpg"
+    },
+    {
+      "title": "Strangozzi al tartufo nero di Norcia",
+      "description": "Pasta fresca umbra senza uovo condita con il pregiato tartufo nero di Norcia, semplice e profumatissima.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "UMB",
+      "ingredients": [
+        {
+          "name": "Semola rimacinata di grano duro",
+          "category": "GRAIN",
+          "quantity": 400,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Tartufo nero",
+          "category": "PRODUCE",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di Norcia, grattugiato"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 6,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "in camicia"
+        },
+        {
+          "name": "Acciughe",
+          "category": "FISH",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "facoltative, sciolte nell'olio"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Impasta la semola con l'acqua tiepida e un pizzico di sale fino a ottenere un panetto liscio, poi lascia riposare 30 minuti.",
+        "Stendi la sfoglia non troppo sottile e tagliala a strisce spesse e irregolari simili a grossi spaghetti.",
+        "Scalda l'olio con l'aglio in camicia e, se vuoi, sciogli le acciughe, poi unisci gran parte del tartufo grattugiato a fuoco basso.",
+        "Lessa gli strangozzi in acqua salata e scolali al dente tenendo da parte un po' di acqua di cottura.",
+        "Salta la pasta nel condimento aggiungendo acqua di cottura per legare e completa con il tartufo rimasto a crudo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lentils_soup_with_strangozzi.jpg/960px-Lentils_soup_with_strangozzi.jpg"
+    },
+    {
+      "title": "Salsiccia e lenticchie di Castelluccio",
+      "description": "Le rinomate lenticchie di Castelluccio cotte con verdure e servite con la saporita salsiccia umbra in umido.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 50,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "UMB",
+      "ingredients": [
+        {
+          "name": "Lenticchie",
+          "category": "LEGUME",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "di Castelluccio"
+        },
+        {
+          "name": "Salsiccia",
+          "category": "MEAT",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "umbra"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata"
+        },
+        {
+          "name": "Carota",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Sedano",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Passata di pomodoro",
+          "category": "CONDIMENT",
+          "quantity": 200,
+          "unit": "ML",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Alloro",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "una foglia"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Soffriggi cipolla, carota e sedano nell'olio extravergine fino a renderli morbidi.",
+        "Unisci le lenticchie e l'alloro, mescola e versa acqua a coprire, poi cuoci a fuoco dolce per circa 35 minuti.",
+        "Aggiungi la passata di pomodoro e regola di sale, continuando la cottura finche le lenticchie sono tenere.",
+        "In una padella a parte rosola le salsicce punzecchiate fino a doratura.",
+        "Unisci le salsicce alle lenticchie, lascia insaporire qualche minuto e servi ben caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lenticchie_z01.jpg"
+    },
+    {
+      "title": "Torta al testo umbra",
+      "description": "Focaccia rustica umbra cotta sul testo, da farcire con salumi, formaggi o erbe di campo.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 20,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "UMB",
+      "ingredients": [
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 250,
+          "unit": "ML",
+          "essential": true,
+          "note": "tiepida"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Lievito istantaneo",
+          "category": "OTHER",
+          "quantity": 8,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "per torte salate"
+        },
+        {
+          "name": "Bicarbonato",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "TEASPOON",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Disponi la farina a fontana e uniscivi acqua tiepida, olio, sale e lievito, impastando fino a ottenere un panetto liscio.",
+        "Lascia riposare l'impasto coperto per circa 15 minuti.",
+        "Stendi la pasta in un disco spesso circa un centimetro.",
+        "Scalda bene il testo o una padella di ghisa e cuoci la torta a fuoco medio per qualche minuto per lato, bucherellandola.",
+        "Quando entrambi i lati sono dorati e cotti dentro, taglia a spicchi, apri e farcisci a piacere con salumi o erbe."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Torta_al_testo_ham_cheese.jpg/960px-Torta_al_testo_ham_cheese.jpg"
+    },
+    {
+      "title": "Polenta concia",
+      "description": "Cremosa polenta valdostana mantecata con burro e abbondante fontina filante, piatto simbolo della montagna.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 50,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "VDA",
+      "ingredients": [
+        {
+          "name": "Polenta (farina di mais)",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Acqua",
+          "category": "PANTRY",
+          "quantity": 1.2,
+          "unit": "L",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Fontina",
+          "category": "DAIRY",
+          "quantity": 250,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 60,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Parmigiano Reggiano",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": "grattugiato"
+        }
+      ],
+      "steps": [
+        "Porta a ebollizione l'acqua salata e versa a pioggia la farina di mais mescolando con la frusta.",
+        "Cuoci la polenta a fuoco basso per circa 45 minuti, mescolando spesso con un cucchiaio di legno.",
+        "Unisci la fontina a cubetti e mescola finche' non si scioglie e fila.",
+        "Manteca con il burro e, se vuoi, una spolverata di parmigiano.",
+        "Servi la polenta concia ben calda e filante."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Polenta_%22uncia%22_servita_al_rifugio_del_Monte_Palanzone_%22Rifugio_Riella%22_%28Como%29_-_08-11-2015.JPG/960px-Polenta_%22uncia%22_servita_al_rifugio_del_Monte_Palanzone_%22Rifugio_Riella%22_%28Como%29_-_08-11-2015.JPG"
+    },
+    {
+      "title": "Carbonada valdostana",
+      "description": "Spezzatino di manzo brasato lentamente nel vino rosso e spezie, servito tradizionalmente con la polenta.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 120,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "VDA",
+      "ingredients": [
+        {
+          "name": "Manzo",
+          "category": "MEAT",
+          "quantity": 800,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a cubetti"
+        },
+        {
+          "name": "Vino rosso",
+          "category": "ALCOHOL",
+          "quantity": 500,
+          "unit": "ML",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "affettata"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Farina 00",
+          "category": "GRAIN",
+          "quantity": 30,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Alloro",
+          "category": "HERB",
+          "quantity": 2,
+          "unit": "PIECES",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Noce moscata",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Infarina leggermente i cubetti di manzo e rosolali nel burro fino a doratura.",
+        "Aggiungi le cipolle affettate e lasciale appassire dolcemente.",
+        "Bagna con il vino rosso, unisci alloro, noce moscata e sale.",
+        "Copri e cuoci a fuoco basso per circa 2 ore, finche' la carne e' tenera e il sugo si addensa.",
+        "Servi la carbonada calda accompagnata da polenta."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Carbonnade_proven%C3%A7ale_ou_carbonn%C3%A9e.jpg/960px-Carbonnade_proven%C3%A7ale_ou_carbonn%C3%A9e.jpg"
+    },
+    {
+      "title": "Zuppa alla valpellinentze",
+      "description": "Ricca zuppa di montagna a strati di pane raffermo, cavolo verza e fontina, gratinata in forno.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 60,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "VDA",
+      "ingredients": [
+        {
+          "name": "Pane raffermo",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fette"
+        },
+        {
+          "name": "Fontina",
+          "category": "DAIRY",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fette"
+        },
+        {
+          "name": "Verza",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "a striscioline"
+        },
+        {
+          "name": "Brodo di carne",
+          "category": "OTHER",
+          "quantity": 1,
+          "unit": "L",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 50,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Cannella",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Sbollenta la verza a striscioline nel brodo finche' diventa morbida.",
+        "Tosta leggermente le fette di pane raffermo.",
+        "In una pirofila imburrata alterna strati di pane, verza e fette di fontina.",
+        "Bagna con il brodo caldo e profuma con un pizzico di cannella, terminando con fontina.",
+        "Distribuisci fiocchi di burro e gratina in forno a 180 gradi per circa 40 minuti.",
+        "Lascia riposare qualche minuto e servi la zuppa ben calda."
+      ],
+      "imageUrl": "https://picsum.photos/seed/zuppa-alla-valpellinentze/800/600"
+    },
+    {
+      "title": "Risotto al nero di seppia",
+      "description": "Cremoso risotto veneziano dal caratteristico colore nero, mantecato con il nero delle seppie e profumato di mare.",
+      "difficulty": "MEDIUM",
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "VEN",
+      "ingredients": [
+        {
+          "name": "Riso Carnaroli",
+          "category": "GRAIN",
+          "quantity": 320,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Seppia",
+          "category": "FISH",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "con le sacche di nero"
+        },
+        {
+          "name": "Vino bianco",
+          "category": "ALCOHOL",
+          "quantity": 100,
+          "unit": "ML",
+          "essential": true,
+          "note": "secco"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tritata finemente"
+        },
+        {
+          "name": "Aglio",
+          "category": "PRODUCE",
+          "quantity": 1,
+          "unit": "PIECES",
+          "essential": false,
+          "note": "in camicia"
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Pulisci le seppie conservando con cura le sacche del nero e tagliale a striscioline.",
+        "Soffriggi la cipolla e l'aglio nell'olio, unisci le seppie e rosolale per qualche minuto.",
+        "Sfuma con il vino bianco e lascia evaporare, poi versa il riso e tostalo.",
+        "Aggiungi brodo caldo poco alla volta mescolando per circa 16 minuti.",
+        "Sciogli il nero di seppia in un mestolo di brodo e incorporalo a metà cottura.",
+        "Manteca fuori dal fuoco, regola di sale e completa con il prezzemolo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg/960px-Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg"
+    },
+    {
+      "title": "Fegato alla veneziana",
+      "description": "Tenere fettine di fegato di vitello cotte velocemente con un letto di cipolle dolci stufate, piatto simbolo della cucina veneziana.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "type": "TRADITIONAL",
+      "regionCode": "VEN",
+      "ingredients": [
+        {
+          "name": "Fegato di vitello",
+          "category": "MEAT",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "a fettine sottili"
+        },
+        {
+          "name": "Cipolla",
+          "category": "PRODUCE",
+          "quantity": 600,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": "bianca, affettata sottile"
+        },
+        {
+          "name": "Burro",
+          "category": "DAIRY",
+          "quantity": 40,
+          "unit": "GRAMS",
+          "essential": false,
+          "note": null
+        },
+        {
+          "name": "Olio extravergine di oliva",
+          "category": "PANTRY",
+          "quantity": 3,
+          "unit": "TABLESPOON",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Prezzemolo",
+          "category": "HERB",
+          "quantity": 1,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "tritato"
+        },
+        {
+          "name": "Sale",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Pepe nero",
+          "category": "PANTRY",
+          "quantity": 1,
+          "unit": "QB",
+          "essential": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        "Affetta le cipolle sottilmente e stufale a fuoco basso con olio e burro finché diventano morbide e dolci.",
+        "Alza la fiamma e unisci il fegato tagliato a fettine sottili.",
+        "Cuoci il fegato pochi minuti girandolo, lasciandolo rosato all'interno.",
+        "Regola di sale e pepe solo a fine cottura per non indurire la carne.",
+        "Spolvera con prezzemolo tritato e servi subito caldo."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Fegato_alla_Veneziana.jpg/960px-Fegato_alla_Veneziana.jpg"
+    },
+    {
+      "title": "Tiramisù",
+      "description": "Iconico dolce al cucchiaio di origine trevigiana fatto di savoiardi inzuppati nel caffè e crema al mascarpone, spolverato di cacao.",
+      "difficulty": "EASY",
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 0,
+      "servings": 6,
+      "type": "TRADITIONAL",
+      "regionCode": "VEN",
+      "ingredients": [
+        {
+          "name": "Savoiardi",
+          "category": "GRAIN",
+          "quantity": 300,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Mascarpone",
+          "category": "DAIRY",
+          "quantity": 500,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Uova",
+          "category": "OTHER",
+          "quantity": 4,
+          "unit": "PIECES",
+          "essential": true,
+          "note": "tuorli e albumi separati"
+        },
+        {
+          "name": "Zucchero",
+          "category": "PANTRY",
+          "quantity": 100,
+          "unit": "GRAMS",
+          "essential": true,
+          "note": null
+        },
+        {
+          "name": "Caffè",
+          "category": "OTHER",
+          "quantity": 300,
+          "unit": "ML",
+          "essential": true,
+          "note": "espresso, freddo"
+        },
+        {
+          "name": "Cacao amaro",
+          "category": "OTHER",
+          "quantity": 2,
+          "unit": "TABLESPOON",
+          "essential": false,
+          "note": "in polvere, per spolverare"
+        }
+      ],
+      "steps": [
+        "Monta i tuorli con lo zucchero fino a ottenere un composto chiaro e spumoso.",
+        "Incorpora il mascarpone ottenendo una crema liscia, poi unisci gli albumi montati a neve con movimenti delicati.",
+        "Inzuppa rapidamente i savoiardi nel caffè freddo senza inzupparli troppo.",
+        "Alterna nella teglia uno strato di savoiardi e uno di crema, ripetendo fino a esaurimento.",
+        "Termina con uno strato di crema e fai riposare in frigorifero almeno 3 ore.",
+        "Spolvera con cacao amaro appena prima di servire."
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Home-made_tiramisu%2C_november_2008.jpg/960px-Home-made_tiramisu%2C_november_2008.jpg"
+    }
+  ]
+}

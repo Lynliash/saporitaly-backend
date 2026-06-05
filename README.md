@@ -2,7 +2,7 @@
 
 API REST della cucina regionale italiana: archivio ricette, **svuotafrigo** (matcher dispensa → ricette con sostituzioni), recensioni e backoffice admin.
 
-**Live demo:** <https://saporitaly-api.example.com>
+**Live demo:** <https://saporitaly-frontend.vercel.app/>
 > 🎨 **[Clicca qui per visualizzare la Repository del Frontend](https://github.com/Lynliash/saporitaly-frontend)**
 ---
 
